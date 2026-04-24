@@ -34,7 +34,6 @@ The compiler selects the appropriate constructor through **overload resolution**
 
 Also, constructor overloading allows for **conversion constructors**, which allows implicit conversion:
 
-```cpp
 std::string s = "hello";   // copy-initialization (implicit conversion)
 std::string t("hello");    // direct-initialization 
 
