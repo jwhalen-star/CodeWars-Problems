@@ -34,8 +34,8 @@ The compiler selects the appropriate constructor through **overload resolution**
 
 Also, constructor overloading allows for **conversion constructors**, which allows implicit conversion:
 
-std::string s = "hello";   // copy-initialization (implicit conversion)
-std::string t("hello");    // direct-initialization 
+- std::string s = "hello";   // copy-initialization (implicit conversion)
+- std::string t("hello");    // direct-initialization 
 
 These are examples of a conversion constructor being invoked during initialization. They work because "hello" is of type const char*, and the constructor std::string(const char*) enables conversion from const char* to std::string.
 
