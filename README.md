@@ -5,7 +5,7 @@ This repository contains my solutions to CodeWars problems, written in C++.
 ## Structure
 
 Problems are organized by category and each problem includes:
-- A solution implementation
+- One or more solution implementations
 - A README explaining the approach and key concepts
 
 ## Goals
