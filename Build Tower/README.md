@@ -12,7 +12,7 @@ Given a positive integer nFloors, construct a pyramid-shaped tower represented a
 
 ## Solution Summary
 
-Of note, I am not building a program that builds a tower. Instead I am building a program that returns the data need to display a tower in the form of a vector populated with string objects. The number of floors determines the height of the tower. Importantly, the number of spaces on each floor on each side of the stars in the middle of a row is calculated counting down from nFloors - 1, and the number of stars in the middle of each row is calculated as the next consecutive odd number of stars. 
+Of note, I am not building a program that builds a tower. Instead I am building a program that returns the data need to display a tower in the form of a vector populated with string objects. The number of floors determines the height of the tower. Importantly, the number of spaces on each floor on each side of the stars in the middle of a row is calculated counting down from (nFloors - 1), and the number of stars in the middle of each row is calculated as the next consecutive odd number of stars. 
 
 ## Standard Library Usage
 
@@ -37,7 +37,7 @@ Also, constructor overloading allows for **conversion constructors**, which allo
 - `std::string s = "hello";` Copy-initialization (implicit conversion)
 - `std::string t("hello");` Direct-initialization 
 
-These are examples of a conversion constructor being invoked during initialization. They work because "hello" is of type const char*, and the constructor std::string(const char*) enables conversion from const char* to std::string.
+These are examples of a conversion constructor being invoked during initialization. They work because "hello" is of type const char*, and the constructor `std::string(const char*)` enables conversion from `const char*` to `std::string`.
 
 If a constructor is marked explicit, it can no longer be used for implicit conversion.
 
