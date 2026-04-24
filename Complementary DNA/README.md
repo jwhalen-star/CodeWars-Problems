@@ -1,7 +1,9 @@
 # Complementary DNA
 
 **Source:** https://www.codewars.com/kata/554e4a2f232cdd87d9000038/train/cpp
+
 **Difficulty:** 7 kyu
+
 **Language:** C++
 
 ## Problem 
