@@ -37,7 +37,7 @@ Also, constructor overloading allows for **conversion constructors**, which allo
 - `std::string s = "hello";` Copy-initialization (implicit conversion)
 - `std::string t("hello");` Direct-initialization 
 
-These are examples of a conversion constructor being invoked during initialization. They work because "hello" is of type const char*, and the constructor `std::string(const char*)` enables conversion from `const char*` to `std::string`.
+These are examples of a conversion constructor being invoked during initialization. They work because "hello" is of type const char*. The constructor `std::string(const char*)` enables conversion from `const char*` to `std::string`.
 
 If a constructor is marked explicit, it can no longer be used for implicit conversion.
 
