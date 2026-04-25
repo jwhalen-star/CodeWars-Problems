@@ -15,7 +15,7 @@ public:
               }
             } 
           }
-          if (smallestIndex != i) { // Eliminates unnecssary sorting
+          if (smallestIndex != i) { // Eliminates unnecessary sorting
             int temp = array[i];
             array[i] = array[smallestIndex];
             array[smallestIndex] = temp;
